@@ -1,5 +1,12 @@
-const tituloMovimento = document.getElementById('titulo-movimento');
-tituloMovimento.textContent = "O que foi a Neighbourhood";
+document.addEventListener('DOMContentLoaded', function(){
+  let tamanhoAtualFonte = 1;
 
-const paragrafoDescreveMovimento = document.getElementById('paragrafo-descreve-movimento');
-paragrafoDescreveMovimento.textContent = ""
+  const botaoAumentarFonte = document.getElementById('aumentar-fonte');
+  const botaoDiminuirFonte = document.getElementById('diminuir-fonte');
+
+  botaoAumentarFonte.addEventListener('click', function(){
+    tamanhoAtualFonte += 0.1;
+    document.body.style.fontSize = `${tamanhoAtualFonte}rem`;
+  });
+  
+});

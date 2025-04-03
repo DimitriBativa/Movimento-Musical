@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
 
 :root {
-  --laranja-claro: #FF862A;
+  --mardi-gras: #7F2982;
 }
 
 body {
@@ -11,7 +11,7 @@ body {
 }
 
 header {
-  background-color: #ffffff;
+  background-color: #F4F9E9;
 }
 
 
@@ -21,7 +21,7 @@ section {
 
 
 .nav-link {
-  color: #CB6D43;
+  color: #D664BE;
   font-weight: 600;
 }
 
@@ -31,7 +31,9 @@ section {
   /* Substitua pelo caminho da sua imagem */
   background-size: cover;
   background-position: right;
-  border-radius: 80px;
+  border-radius: 10% 10% 0% 10%;
+  border: solid 2px;
+  opacity: 92%;
   width: 100%;
   height: 606px;
   padding: 40px;
@@ -41,9 +43,9 @@ section {
 /* posicionamento para a imagem à direita */
 .img-inicio {
   position: absolute;
-  right: 0;
-  top: 18rem;
-  width: 45rem;
+  right: 80px;
+  top: 28rem;
+  width: 25rem;
   height: auto;
 }
 
@@ -57,7 +59,7 @@ section {
 
 
 .botao-inicio {
-  background-color: var(--laranja-claro);
+  background-color: var(--mardi-gras);
   border-radius: 30px;
   border: none;
   width: 14em;
@@ -67,7 +69,7 @@ section {
 }
 
 .display-4 {
-  text-shadow: -5px 5px var(--laranja-claro);
+  text-shadow: -5px 5px var(--mardi-gras);
 }
 
 
@@ -76,9 +78,9 @@ section {
   padding-top: 5rem;
   margin-top: 3rem;
   margin-bottom: 3rem;
-  background: url('img/flor.png') top right no-repeat,
-    url('img/flor-esquerda.png') bottom left no-repeat;
-  background-size: 180px 180px;
+  background: url('img/ravenArt.png') top right no-repeat,
+    url('img/cobraArt.png') bottom left no-repeat;
+  background-size: 200px 200px;
   /* Ajuste o tamanho conforme necessário */
 }
 
@@ -96,21 +98,22 @@ h2 {
   font-family: 'Lemon', serif;
   font-size: 2.5em;
   font-style: normal;
-  color: var(--laranja-claro);
+  color: var(--mardi-gras);
 }
 
 #galeria {
   background-color: #FAF4F4;
-
+  border: solid 2px;
+  border-radius: 15px 15px 0px 0px;
 }
 
 .fundo-galeria {
-  background: url('img/flor-bottom-direita.png') bottom right no-repeat;
-  background-size: 180px 180px;
+  background: url('img/grenade.png') bottom right no-repeat;
+  background-size: 200px 200px;
 }
 
 #contato {
-  background-image: url('img/TdgBackground.jpg');
+  background-image: url('img/tdgBackgroundReverse.jpg');
   background-size: cover;
   padding: 4rem 0;
   /* Espaçamento interno para a seção de contato */
@@ -129,7 +132,7 @@ h2 {
 }
 
 .formulario button {
-  background-color: #CB6D43;
+  background-color: #03ff9c;
   border: none;
   font-weight: bold;
 }
